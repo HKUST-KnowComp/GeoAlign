@@ -20,10 +20,10 @@ We construct two taxonomies (YAGOwordnet and wikiObjects) and one knowledge grap
 * full_taxonomy.csv: This file contains the edges of the full transitive closure of the taxonomy, which is used in our experiments.
 * full_transitive.txt / basic_edges.txt: The edges in the full transitive closure of the taxonomy / the transitive reduction of the taxonomy.
 * types.txt / entities.txt / taxonomy_nodes.txt: The types / entities / union of types and entities in the taxonomy.
-* taxonomy: The folder contains the training set and test set under different training rates. It also provides the corresponding data for the baseline models, including [AttH](https://github.com/HazyResearch/KGEmb), [HAKE](https://github.com/MIRALab-USTC/KGE-HAKE), [JOIE](https://github.com/JunhengH/joie-kdd19), [MurP](https://github.com/ibalazevic/multirelational-poincare), [TransC](https://github.com/davidlvxin/TransC), and [OpenKE](https://github.com/thunlp/OpenKE).
+* taxonomy: The folder contains the training set and test set under different training rates.
 
 #### Knowledge graph data
-* TransE_KG: The folder contains the pretrained TransE embeddings of YAGOfacts and the pairwise distance matrix of the pretrained embeddings.
+* TransE_KG: The folder contains the pretrained TransE embeddings of YAGOfacts named 'TransE.ckpt'. Please obtain a pairwise distance matrix of the entity embeddings and store it in this folder before running the code.
 
 ## Usage
 To run the whole framework, run:
